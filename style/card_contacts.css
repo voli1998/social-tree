@@ -1,0 +1,48 @@
+.card-contacts {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-contacts .title {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: antiquewhite;
+}
+
+.card-contacts ul {
+    width: 100%;
+    height: 100%;
+}
+
+.card-contacts ul li button {
+    width: 100%;
+    height: 2.8rem;
+    margin-bottom: 10px;
+    background-color:#56565ca1;
+    border: 1px solid #8e4029;
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+
+.card-contacts ul li button:hover {
+    background-color: #282828;
+}
+
+.card-contacts ul li a button {
+    font-size: 1rem;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-contacts ul li a button span {
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+}
